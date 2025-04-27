@@ -39,9 +39,9 @@ export default function Home() {
             <Button
               variant="outline"
               size="lg"
-              className="w-full sm:w-fit h-12 rounded-[6px] border border-surface-2 shadow-sm px-8 flex justify-center items-center cursor-pointer"
+              className="w-full sm:w-fit h-12 rounded-[6px] border border-surface-2 shadow-sm px-8 flex justify-center items-center cursor-pointer bg-white hover:bg-gray-50"
             >
-              <FaChrome className="mr-2 text-lg" />
+              <FaChrome className="mr-2 text-lg text-blue-500" />
               <span className="font-outfit font-medium">Chromeに追加</span>
             </Button>
           </a>
@@ -56,9 +56,9 @@ export default function Home() {
             <Button
               variant="outline"
               size="lg"
-              className="w-full sm:w-fit h-12 rounded-[6px] border border-surface-2 shadow-sm px-8 flex justify-center items-center cursor-pointer"
+              className="w-full sm:w-fit h-12 rounded-[6px] border border-surface-2 shadow-sm px-8 flex justify-center items-center cursor-pointer bg-white hover:bg-gray-50"
             >
-              <FaFirefox className="mr-2 text-lg" />
+              <FaFirefox className="mr-2 text-lg text-orange-500" />
               <span className="font-outfit font-medium">Firefoxに追加</span>
             </Button>
           </a>
@@ -92,7 +92,7 @@ export default function Home() {
               href={`https://github.com/${repoData.full_name}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full flex items-center gap-2 sm:gap-3 p-3 sm:p-4 border rounded-[6px] transition shadow-sm hover:shadow"
+              className="w-full flex items-center gap-2 sm:gap-3 p-3 sm:p-4 border rounded-[6px] transition shadow-sm hover:shadow bg-white hover:bg-gray-50"
               aria-label={`GitHub repository: ${repoData.full_name}`}
             >
               <img src={repoData.owner.avatar_url} alt="" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full" aria-hidden="true" />
