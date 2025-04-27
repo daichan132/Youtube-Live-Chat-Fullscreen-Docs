@@ -1,5 +1,7 @@
 import type { Route } from "./+types/home";
 import { Button } from "~/components/ui/button";
+import { FaChrome, FaFirefox, FaGithub } from "react-icons/fa";
+import { FiArrowRight } from "react-icons/fi";
 
 // Define meta function separately
 export const meta: Route.MetaFunction = () => {
@@ -15,71 +17,73 @@ export const meta: Route.MetaFunction = () => {
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center gap-8 py-12 px-4">
-      <h1 className="text-3xl font-bold text-center">
-        YouTube Live Chat Fullscreen
-      </h1>
-      <p className="text-lg text-center max-w-xl text-foreground/80">
+    <main className="flex flex-col items-center gap-8 py-12 px-4 w-full max-w-screen-sm mx-auto">
+      <h1 className="text-3xl font-bold text-center w-full">YouTube Live Chat Fullscreen</h1>
+      <p className="text-center text-foreground/80 w-full">
         YouTube Liveをフルスクリーンで楽しみながら、チャットの閲覧・投稿ができる拡張機能です。
       </p>
       <img
-        src="/preview.png" // Assuming preview.png is in the public folder
+        src="/preview.png"
         alt="YouTube Live Chat Fullscreen Preview"
-        className="rounded-lg shadow-lg max-w-lg w-full border border-border"
+        className="rounded-lg shadow-lg w-full border border-border"
       />
-      {/* Add Download Links */}
-      <div className="flex flex-col sm:flex-row gap-4 mt-4">
-        <Button>
+      {/* Download Links Section - Modern Large Button Layout */}
+      <div className="w-full mt-8">
+        <h3 className="text-2xl font-semibold text-center mb-6">拡張機能をインストール</h3>
+        <div className="flex flex-col gap-4 max-w-lg mx-auto">
           <a
             href="https://chromewebstore.google.com/detail/youtube-live-chat-fullscr/dlnjcbkmomenmieechnmgglgcljhoepd"
             target="_blank"
             rel="noopener noreferrer"
+            className="group"
           >
-            Chromeに追加
+            <div className="flex items-center gap-4 p-5 rounded-xl border-2 border-[#4285F4]/20 bg-white dark:bg-zinc-900 hover:border-[#4285F4]/60 hover:shadow-md transition-all duration-200">
+              <div className="h-12 w-12 rounded-full flex items-center justify-center bg-[#4285F4]/10">
+                <FaChrome className="text-[#4285F4] text-[28px]" />
+              </div>
+              <div className="flex-1">
+                <h4 className="text-lg font-medium group-hover:text-[#4285F4] transition-colors">Google Chrome</h4>
+              </div>
+              <div className="flex items-center justify-center bg-[#4285F4]/10 text-[#4285F4] group-hover:bg-[#4285F4] group-hover:text-white rounded-lg px-4 py-2 transition-colors duration-200">
+                <span className="font-medium">インストール</span>
+                <FiArrowRight className="ml-1" />
+              </div>
+            </div>
           </a>
-        </Button>
-        <Button variant="secondary"> {/* Use secondary variant for Firefox */}
+
           <a
             href="https://addons.mozilla.org/ja/firefox/addon/youtube-live-chat-fullscreen/"
             target="_blank"
             rel="noopener noreferrer"
+            className="group"
           >
-            Firefoxに追加
+            <div className="flex items-center gap-4 p-5 rounded-xl border-2 border-[#FF9500]/20 bg-white dark:bg-zinc-900 hover:border-[#FF9500]/60 hover:shadow-md transition-all duration-200">
+              <div className="h-12 w-12 rounded-full flex items-center justify-center bg-[#FF9500]/10">
+                <FaFirefox className="text-[#FF9500] text-[28px]" />
+              </div>
+              <div className="flex-1">
+                <h4 className="text-lg font-medium group-hover:text-[#FF9500] transition-colors">Mozilla Firefox</h4>
+              </div>
+              <div className="flex items-center justify-center bg-[#FF9500]/10 text-[#FF9500] group-hover:bg-[#FF9500] group-hover:text-white rounded-lg px-4 py-2 transition-colors duration-200">
+                <span className="font-medium">インストール</span>
+                <FiArrowRight className="ml-1" />
+              </div>
+            </div>
           </a>
-        </Button>
+        </div>
       </div>
-      {/* Update GitHub Link Section */}
-      <div className="text-center mt-4 max-w-xl">
-        <Button asChild variant="outline">
-          <a
-            href="https://github.com/daichan132/Youtube-Live-Chat-Fullscreen"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHubでソースを見る
-          </a>
-        </Button>
-        <p className="text-sm text-foreground/70 mt-2">
-          このプロジェクト「YouTube Live Chat Fullscreen」はこれからも無料で、ソースコードも公開し続ける予定です。
-        </p>
-      </div>
-      {/* Update Support Section */}
-      <div className="w-full max-w-md mt-8">
-        <h2 className="text-2xl font-semibold mb-4 text-center">Support the Project</h2>
-        <p className="text-center mb-4 text-foreground/80">
-          もし気に入って頂けたら、コーヒーを一杯ご馳走してもらえると開発の励みになります！☺️
-        </p>
-        <iframe
-          id="kofiframe"
-          src="https://ko-fi.com/daichan132/?hidefeed=true&widget=true&embed=true&preview=true"
-          style={{
-            width: "100%",
-            background: "#f9f9f9", // Consider adjusting background for dark mode or removing it
-            borderRadius: 'var(--radius)', // Match shadcn border radius
-          }}
-          height={712}
-          title="daichan132 Ko-fi Panel" // Updated title
-        />
+
+      {/* GitHub Link Section */}
+      <div className="text-center mt-8 w-full">
+        <a
+          href="https://github.com/daichan132/Youtube-Live-Chat-Fullscreen"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+        >
+          <FaGithub size={16} />
+          <span>GitHubでソースコードを見る</span>
+        </a>
       </div>
     </main>
   );

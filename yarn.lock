@@ -898,6 +898,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fontsource/outfit@npm:^5.2.5":
+  version: 5.2.5
+  resolution: "@fontsource/outfit@npm:5.2.5"
+  checksum: 10c0/42ceb05c546f9083405d1e63b10dc39a59b149986ec6882da33f91ef17b6344278338c1ed8f20e2c461f2f07b7c8f25b1ff6b98590ca137cd9052d5a072a6a89
+  languageName: node
+  linkType: hard
+
 "@isaacs/cliui@npm:^8.0.2":
   version: 8.0.2
   resolution: "@isaacs/cliui@npm:8.0.2"
@@ -1986,11 +1993,11 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:^20":
-  version: 20.17.30
-  resolution: "@types/node@npm:20.17.30"
+  version: 20.17.31
+  resolution: "@types/node@npm:20.17.31"
   dependencies:
     undici-types: "npm:~6.19.2"
-  checksum: 10c0/649782c7822367d751472d70c948bcc50cded1a4744610f706f81cd54e1fc015523567d7e3e17f6b19e3e2797f6f23b653e898bdb4a2f21f8759ceba49976310
+  checksum: 10c0/ab6fb60a7957bef39a9fcd3b9fbd8ea2f4a51d7b8522b0fd56e11b9fbbd3ff6cbd361e3bd510cdf9bbef54956332374c6646e28cce8ae597244623a0659153d0
   languageName: node
   linkType: hard
 
@@ -2756,9 +2763,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.73":
-  version: 1.5.142
-  resolution: "electron-to-chromium@npm:1.5.142"
-  checksum: 10c0/05bc0c695a4b7c6fac499700199bfd90d767eea352e67171f005920a225e42fa08dc62ba0d31523fcd2e9b49e25aab133f82270e784888fb5c3c032f6607cdeb
+  version: 1.5.143
+  resolution: "electron-to-chromium@npm:1.5.143"
+  checksum: 10c0/2868655af1b32784395475b1f58d6363c837b198f64cb23e0fbcf1a45f682187cbf2b2aea1df6e4584a4d1a7c7c4ced04a9a09c24644ae0b216af6bdc1501cf5
   languageName: node
   linkType: hard
 
@@ -3160,29 +3167,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^12.0.6":
-  version: 12.9.1
-  resolution: "framer-motion@npm:12.9.1"
-  dependencies:
-    motion-dom: "npm:^12.9.1"
-    motion-utils: "npm:^12.8.3"
-    tslib: "npm:^2.4.0"
-  peerDependencies:
-    "@emotion/is-prop-valid": "*"
-    react: ^18.0.0 || ^19.0.0
-    react-dom: ^18.0.0 || ^19.0.0
-  peerDependenciesMeta:
-    "@emotion/is-prop-valid":
-      optional: true
-    react:
-      optional: true
-    react-dom:
-      optional: true
-  checksum: 10c0/be47217b01226e30c4be6aff3f217dc145db43a889fb0776fdc3653203cd0954536a472ec85678f7cc624dbc910478e824c356a43ddbeb616ede2bdaddbafc18
-  languageName: node
-  linkType: hard
-
-"framer-motion@npm:^12.9.2":
+"framer-motion@npm:^12.0.6, framer-motion@npm:^12.9.2":
   version: 12.9.2
   resolution: "framer-motion@npm:12.9.2"
   dependencies:
@@ -3532,9 +3517,9 @@ __metadata:
   linkType: hard
 
 "isbot@npm:^5.1.17":
-  version: 5.1.26
-  resolution: "isbot@npm:5.1.26"
-  checksum: 10c0/4ae4477c2f2e75feac4c10c40e709371bdd360cbe369e909acbf8a1ac3faa6cea75b963b41bd46ad52277f06daee88a0a53055086375e7a9da5aff8e1332f969
+  version: 5.1.27
+  resolution: "isbot@npm:5.1.27"
+  checksum: 10c0/c3a434c0388fb21932c29682f82a4e51cb7fb87d819af086e96747dff4ed9b6b0bfc5038432cfab213e283fb9ce30ba48cf15d856b08b908b1f29b00570070f3
   languageName: node
   linkType: hard
 
@@ -4504,6 +4489,15 @@ __metadata:
     react: ">=16.8.1"
     react-dom: ">=16.8.1"
   checksum: 10c0/ef30c49260f47972acea37f3d2cae4de871a6f65bd25ebe0d266586ccf6fb495ed44ba78296dbeed82f3493b1dec8bde5df63e6f0f9a4f99697394e512049f84
+  languageName: node
+  linkType: hard
+
+"react-icons@npm:^5.5.0":
+  version: 5.5.0
+  resolution: "react-icons@npm:5.5.0"
+  peerDependencies:
+    react: "*"
+  checksum: 10c0/a24309bfc993c19cbcbfc928157e53a137851822779977b9588f6dd41ffc4d11ebc98b447f4039b0d309a858f0a42980f6bfb4477fb19f9f2d1bc2e190fcf79c
   languageName: node
   linkType: hard
 
@@ -5649,6 +5643,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "youtube-live-chat-fullscreen-docs@workspace:."
   dependencies:
+    "@fontsource/outfit": "npm:^5.2.5"
     "@radix-ui/react-slot": "npm:^1.2.0"
     "@react-router/dev": "npm:^7.5.2"
     "@react-router/node": "npm:^7.5.2"
@@ -5664,6 +5659,7 @@ __metadata:
     lucide-react: "npm:^0.503.0"
     react: "npm:^19.0.0"
     react-dom: "npm:^19.0.0"
+    react-icons: "npm:^5.5.0"
     react-router: "npm:^7.5.2"
     react-router-devtools: "npm:^1.1.0"
     tailwind-merge: "npm:^3.2.0"
