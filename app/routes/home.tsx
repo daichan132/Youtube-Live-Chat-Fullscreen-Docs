@@ -19,7 +19,7 @@ export default function Home() {
   const { data: repoData } = useGithubRepo("daichan132", "Youtube-Live-Chat-Fullscreen");
 
   return (
-    <main className="flex flex-col items-center gap-6 sm:gap-8 py-8 sm:py-16 px-4 sm:px-8 w-full max-w-[87.5rem] mx-auto bg-gradient-to-br from-gray-50 to-white dark:from-gray-800 dark:to-gray-950">
+    <main className="flex flex-col items-center gap-6 sm:gap-8 py-8 sm:py-16 px-4 sm:px-8 w-full max-w-[87.5rem] mx-auto">
       {/* hero title & description */}
       <h1 className="font-outfit font-bold text-[2rem] sm:text-[2.5rem] md:text-[3rem] leading-[1.2] text-center text-ink-900 w-full">YouTube Live Chat Fullscreen</h1>
       <p className="font-outfit text-[0.9rem] sm:text-[1rem] text-center text-ink-900/80 w-full max-w-2xl px-2">
@@ -78,13 +78,15 @@ export default function Home() {
           <p className="font-outfit text-[0.9rem] sm:text-[1rem] text-ink-900 text-center">
             「YouTube Live Chat Fullscreen」はこれからも全ての機能を無料で提供し、ソースコードも公開し続ける予定です💪もしこのプロジェクトを気に入って頂けたらコーヒーを一杯ご馳走してもらえると嬉しいです!励みになります☺️
           </p>
-          <iframe
-            id="kofiframe"
-            src="https://ko-fi.com/daichan132/?hidefeed=true&widget=true&embed=true&preview=true"
-            style={{ border: "none", width: "100%", marginTop: "1rem" }}
-            height="650"
-            title="daichan132"
-          />
+          <div className="w-full bg-white rounded-[8px] overflow-hidden pt-8 border-gray-200 border-2">
+            <iframe
+              id="kofiframe"
+              src="https://ko-fi.com/daichan132/?hidefeed=true&widget=true&embed=true&preview=true"
+              style={{ width: "100%" }}
+              height="650"
+              title="daichan132"
+            />
+          </div>
           {repoData && (
             <a
               href={`https://github.com/${repoData.full_name}`}
