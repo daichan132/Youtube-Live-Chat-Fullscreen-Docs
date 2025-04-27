@@ -27,10 +27,10 @@
 - 新しい HEX 値を勝手に追加しない。既存トークンのみ使用。
 
 ## 4. コンポーネント
-- **Tailwind CSS v4** のユーティリティクラスのみで構築。
+- **Tailwind CSS v4** のユーティリティクラスとshadcnのコンポーネントのみで構築
 - 角丸 = `4px`, シャドウ = `shadow-sm`。
 - hover 時 `translate-y-0.5`、active 時 `scale-95`（150 ms `ease-out`）。
-- フォーム要素は Headless UI を使用。フォーカスリング `ring-2 ring-brand-600`。
+- 必要なコンポーネントがあるときは`npx shadcn@latest add hogehoge`でインストールする
 
 ## 5. モーション
 - アニメーションは **150 ms 以内** の opacity / transform のみ。
