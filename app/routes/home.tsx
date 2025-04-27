@@ -19,7 +19,7 @@ export default function Home() {
   const { data: repoData } = useGithubRepo("daichan132", "Youtube-Live-Chat-Fullscreen");
 
   return (
-    <main className="flex flex-col items-center gap-6 sm:gap-8 py-8 sm:py-16 px-8 w-full max-w-[87.5rem] mx-auto">
+    <main className="flex flex-col items-center gap-6 sm:gap-8 py-8 sm:py-16 px-4 sm:px-8 w-full max-w-[87.5rem] mx-auto bg-gradient-to-br from-gray-50 to-white dark:from-gray-800 dark:to-gray-950">
       {/* hero title & description */}
       <h1 className="font-outfit font-bold text-[2rem] sm:text-[2.5rem] md:text-[3rem] leading-[1.2] text-center text-ink-900 w-full">YouTube Live Chat Fullscreen</h1>
       <p className="font-outfit text-[0.9rem] sm:text-[1rem] text-center text-ink-900/80 w-full max-w-2xl px-2">
@@ -28,7 +28,7 @@ export default function Home() {
 
       {/* Browser Install Buttons */}
       <div className="flex flex-col items-center gap-4 w-full max-w-md mx-auto">
-        <div className="flex justify-center items-center gap-4 w-full">
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-4 w-full">
           <a
             href="https://chromewebstore.google.com/detail/youtube-live-chat-fullscr/dlnjcbkmomenmieechnmgglgcljhoepd"
             target="_blank"
