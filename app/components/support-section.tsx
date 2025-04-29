@@ -5,11 +5,11 @@ import { TextWithTags } from "~/components/ui/text-with-tags";
 
 export function SupportSection() {
   const { t } = useTranslation();
-  
+
   return (
     <motion.section
       id="donate"
-      className="pt-44 pb-72 px-4"
+      className="pt-44 pb-60 px-4"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.2 }}

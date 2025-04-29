@@ -1,60 +1,54 @@
 import { useTranslation } from "react-i18next";
-import { AnimatePresence, motion } from "framer-motion";
-import { useState } from "react";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "~/components/ui/select"; // Import shadcn/ui Select components
+
+// Define language configuration
+const languages = [
+  { code: 'en', name: 'English' },
+  { code: 'ja', name: '日本語' },
+  // Add more languages here in the future
+  // { code: 'es', name: 'Español' },
+];
 
 export function LanguageSwitcher() {
   const { i18n } = useTranslation();
-  const [isOpen, setIsOpen] = useState(false);
 
-  const currentLang = i18n.language?.startsWith('ja') ? 'ja' : 'en';
-  const toggleOpen = () => setIsOpen(!isOpen);
+  // Find the current language object based on i18n.language
+  // Fallback to English if the current language isn't in our list
+  const currentLanguage = languages.find(lang => i18n.language?.startsWith(lang.code)) || languages[0];
 
-  const switchLanguage = (lang: string) => {
-    i18n.changeLanguage(lang);
-    setIsOpen(false);
+  const switchLanguage = (langCode: string) => {
+    i18n.changeLanguage(langCode);
   };
 
   return (
     <div className="fixed top-4 left-4 z-[10002]">
-      <button
-        onClick={toggleOpen}
-        aria-label="Change language"
-        className="w-10 h-10 rounded-full bg-white/70 dark:bg-neutral-800/60 backdrop-blur-sm ring-1 ring-neutral-900/10 dark:ring-white/10 shadow-sm flex items-center justify-center hover:scale-105 transition-transform cursor-pointer"
-      >
-        <span className="font-medium text-sm">
-          {currentLang === 'ja' ? '日本語' : 'EN'}
-        </span>
-      </button>
-
-      <AnimatePresence>
-        {isOpen && (
-          <motion.div
-            initial={{ opacity: 0, y: -5 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -5 }}
-            className="absolute top-12 left-0 bg-white dark:bg-neutral-800 rounded-md shadow-lg ring-1 ring-black/5 dark:ring-white/10 p-1 flex flex-col min-w-28"
-          >
-            <button
-              onClick={() => switchLanguage('en')}
-              className={`px-3 py-2 text-left rounded ${currentLang === 'en'
-                  ? 'bg-violet-100 dark:bg-violet-900/40 text-violet-700 dark:text-violet-300'
-                  : 'hover:bg-gray-100 dark:hover:bg-neutral-700'
-                }`}
+      <Select value={currentLanguage.code} onValueChange={switchLanguage}>
+        <SelectTrigger
+          className="h-10 px-3 rounded-lg bg-white/70 dark:bg-neutral-800/60 backdrop-blur-sm ring-1 ring-neutral-900/10 dark:ring-white/10 shadow-sm flex items-center justify-center transition-transform cursor-pointer border-0" // Add border-0 to remove default border and match ThemeToggle
+          aria-label="Change language"
+        >
+          {/* Display the name of the current language */}
+          <SelectValue placeholder={currentLanguage.name} />
+        </SelectTrigger>
+        <SelectContent className="bg-[var(--popover)] border-[var(--border)] rounded-lg">
+          {/* Map over the languages array to create SelectItems */}
+          {languages.map((lang) => (
+            <SelectItem
+              key={lang.code}
+              value={lang.code}
+              className="text-[var(--popover-foreground)] hover:bg-[var(--accent)] hover:text-[var(--accent-foreground)] focus:bg-[var(--accent)] focus:text-[var(--accent-foreground)] cursor-pointer"
             >
-              English
-            </button>
-            <button
-              onClick={() => switchLanguage('ja')}
-              className={`px-3 py-2 text-left rounded ${currentLang === 'ja'
-                  ? 'bg-violet-100 dark:bg-violet-900/40 text-violet-700 dark:text-violet-300'
-                  : 'hover:bg-gray-100 dark:hover:bg-neutral-700'
-                }`}
-            >
-              日本語
-            </button>
-          </motion.div>
-        )}
-      </AnimatePresence>
+              {lang.name}
+            </SelectItem>
+          ))}
+        </SelectContent>
+      </Select>
     </div>
   );
 }

@@ -55,7 +55,7 @@ export function FeatureSection() {
   }));
 
   return (
-    <section id="features" className="pt-28 pb-36 px-4">
+    <section id="features" className="pt-28 pb-36 px-8 sm:px-12">
       <motion.h2
         className="text-center text-3xl sm:text-4xl font-semibold mb-20"
         initial="hidden"
@@ -66,7 +66,7 @@ export function FeatureSection() {
         {t('featuresTitle')}
       </motion.h2>
 
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-14">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         {featureItems.map((f, i) => (
           <FeatureCard
             key={f.title}

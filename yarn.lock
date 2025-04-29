@@ -1209,7 +1209,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-select@npm:^2.1.5":
+"@radix-ui/react-select@npm:^2.1.5, @radix-ui/react-select@npm:^2.2.2":
   version: 2.2.2
   resolution: "@radix-ui/react-select@npm:2.2.2"
   dependencies:
@@ -5476,6 +5476,7 @@ __metadata:
   resolution: "youtube-live-chat-fullscreen-docs@workspace:."
   dependencies:
     "@fontsource/outfit": "npm:^5.2.5"
+    "@radix-ui/react-select": "npm:^2.2.2"
     "@react-router/dev": "npm:^7.5.3"
     "@react-router/node": "npm:^7.5.3"
     "@react-router/serve": "npm:^7.5.3"
