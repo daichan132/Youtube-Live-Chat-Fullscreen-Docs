@@ -10,7 +10,6 @@ import {
 import type { Route } from "./+types/root";
 import "./app.css";
 import "@fontsource/outfit";
-// i18n設定を読み込む
 import "./lib/i18n";
 import { LoadingSpinner } from "./components/ui/loading-spinner"; // Import LoadingSpinner
 
@@ -20,6 +19,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Explicitly set favicon path using BASE_URL */}
+        <link rel="icon" href={`${import.meta.env.BASE_URL}favicon.ico`} />
         <Meta />
         <Links />
       </head>

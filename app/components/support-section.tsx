@@ -29,7 +29,7 @@ export function SupportSection() {
           className="block w-full max-w-2xl rounded-2xl overflow-hidden shadow-xl hover:opacity-90 hover:shadow-fuchsia-500/20 transition duration-200"
         >
           <img
-            src="/daichan132-Sharable-Profile)-Horizontal.jpg"
+            src={`${import.meta.env.BASE_URL}daichan132-Sharable-Profile)-Horizontal.jpg`}
             alt={t('supportImgAlt')}
             className="w-full h-auto object-cover rounded-2xl"
             loading="lazy"
