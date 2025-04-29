@@ -4,6 +4,6 @@ import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/<repo>/' : undefined,
+  base: mode === 'production' ? '/Youtube-Live-Chat-Fullscreen-Docs/' : undefined,
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
 }));
