@@ -12,6 +12,7 @@ import "./app.css";
 import "@fontsource/outfit";
 // i18n設定を読み込む
 import "./lib/i18n";
+import { LoadingSpinner } from "./components/ui/loading-spinner"; // Import LoadingSpinner
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -36,6 +37,15 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
 export default function App() {
   return <Outlet />;
+}
+
+// Add HydrateFallback for SPA mode
+export function HydrateFallback() {
+  return (
+    <div className="flex justify-center items-center min-h-screen">
+      <LoadingSpinner size={48} />
+    </div>
+  );
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {

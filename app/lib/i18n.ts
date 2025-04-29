@@ -3,7 +3,7 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import Backend from 'i18next-http-backend';
 import type { InitOptions } from 'i18next';
-import languageCodes from '../../public/language_codes.json'; // Import language codes
+import languageCodes from './language_codes.json'; // Import language codes
 
 // 型定義
 export type Dictionary = {
@@ -39,7 +39,8 @@ const i18nOptions: InitOptions = {
   },
   // JSON読み込みの設定
   backend: {
-    loadPath: '/locales/{{lng}}.json',
+    // Use relative path for GitHub Pages compatibility
+    loadPath: 'locales/{{lng}}.json',
   },
   // 言語検出の設定
   detection: {
