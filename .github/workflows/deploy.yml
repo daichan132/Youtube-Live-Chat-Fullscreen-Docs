@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # mainブランチにプッシュされたときに実行
+      - main # Execute when pushed to the main branch
 
 jobs:
   deploy:
@@ -11,7 +11,7 @@ jobs:
     permissions:
       contents: read
       pages: write
-      id-token: write # OIDCトークンを使用する場合に必要
+      id-token: write # Required when using OIDC tokens
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -19,7 +19,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22 # プロジェクトで使用しているNode.jsのバージョンに合わせてください
+          node-version: 22 # Adjust to the Node.js version used in the project
           cache: 'yarn'
 
       - name: Install dependencies
@@ -32,7 +32,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build/client # package.jsonのdeployスクリプトで指定したディレクトリ
-          # オプション: コミットユーザー情報
+          publish_dir: ./build/client # Directory specified in the deploy script of package.json
+          # Optional: Commit user information
           # user_name: 'github-actions[bot]'
           # user_email: 'github-actions[bot]@users.noreply.github.com'
