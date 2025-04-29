@@ -16,11 +16,11 @@ export function CTAButton({
   outline?: boolean;
 }) {
   const base =
-    "relative inline-flex items-center justify-center gap-2 h-12 px-8 rounded-md font-medium transition-transform transform-gpu focus:outline-none focus:ring-2 focus:ring-offset-2 w-full sm:w-auto";
+    "relative inline-flex items-center justify-center gap-2 h-12 px-8 rounded-md font-medium transition duration-150 focus:outline-none focus:ring-2 focus:ring-fuchsia-400 focus:ring-offset-2 w-full sm:w-auto hover:scale-105 active:scale-95";
 
   const gradientBg = outline
     ? "border border-neutral-700/40 dark:border-white/40 bg-transparent focus:ring-[#141414]"
-    : `bg-gradient-to-br ${colour} text-white shadow-lg hover:brightness-110 focus:ring-violet-400`;
+    : `bg-gradient-to-br ${colour} text-white shadow-lg hover:brightness-110 hover:shadow-fuchsia-500/20`;
 
   return (
     <Button asChild className={`${base} ${gradientBg}`}>

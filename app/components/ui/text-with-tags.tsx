@@ -19,20 +19,20 @@ export function TextWithTags({ content }: TextWithTagsProps): React.ReactElement
   const parseHtml = (htmlString: string): React.ReactNode[] => {
     // サポートするタグの正規表現
     const tagRegex = /<(\/?)(\w+)(\s+[^>]*)?>/g;
-    
+
     // テキストを分割
     const parts: string[] = htmlString.split(tagRegex);
     const result: React.ReactNode[] = [];
     let currentIndex = 0;
-    
+
     // 現在のタグのスタック
     const tagStack: string[] = [];
     let currentContent = '';
-    
+
     // 各部分を処理
     for (let i = 0; i < parts.length; i++) {
       const part = parts[i];
-      
+
       if (i % 4 === 0) {
         // テキスト部分
         if (part) currentContent += part;
@@ -53,7 +53,7 @@ export function TextWithTags({ content }: TextWithTagsProps): React.ReactElement
         }
       } else if (i % 4 === 2) {
         // タグ名
-        if (parts[i-1] !== "/") {
+        if (parts[i - 1] !== "/") {
           if (part === 'br') {
             // brタグは特別処理
             if (currentContent) {
@@ -69,12 +69,12 @@ export function TextWithTags({ content }: TextWithTagsProps): React.ReactElement
       }
       // i % 4 === 3 はタグの属性で、現在は無視
     }
-    
+
     // 残りのテキストを追加
     if (currentContent) {
       result.push(currentContent);
     }
-    
+
     return result;
   };
 

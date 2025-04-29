@@ -52,7 +52,7 @@ export function ThemeToggle() {
     <button
       onClick={toggle}
       aria-label="Toggle theme"
-      className="fixed top-4 right-4 z-[10002] w-10 h-10 rounded-full bg-white/70 dark:bg-neutral-800/60 backdrop-blur-sm ring-1 ring-neutral-900/10 dark:ring-white/10 shadow-sm flex items-center justify-center hover:scale-105 transition-transform cursor-pointer"
+      className="fixed top-4 right-4 z-[10002] w-10 h-10 rounded-full bg-white/70 dark:bg-neutral-800/60 backdrop-blur-sm ring-1 ring-neutral-900/10 dark:ring-white/10 shadow-sm flex items-center justify-center hover:scale-105 focus:ring-2 focus:ring-fuchsia-400 focus:ring-offset-2 transition duration-150 cursor-pointer"
     >
       <AnimatePresence mode="wait" initial={false}>
         {theme === "dark" ? (

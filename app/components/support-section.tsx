@@ -9,32 +9,31 @@ export function SupportSection() {
   return (
     <motion.section
       id="donate"
-      className="pt-44 pb-60 px-4"
+      className="pt-32 pb-40 px-6 sm:px-10"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.2 }}
       variants={fadeUp}
     >
-      <div className="max-w-5xl mx-auto flex flex-col items-center gap-16">
+      <div className="max-w-5xl mx-auto flex flex-col items-center gap-14">
         <h2 className="text-center text-3xl sm:text-4xl font-semibold">
           {t('supportTitle')}
         </h2>
-
-        <p className="text-center max-w-2xl text-sm sm:text-base text-neutral-600 dark:text-neutral-300">
+        <p className="text-center max-w-2xl text-base sm:text-lg text-neutral-700 dark:text-neutral-100">
           <TextWithTags content={t('supportDesc')} />
         </p>
-
         <a
           href="https://ko-fi.com/daichan132"
           target="_blank"
           rel="noopener noreferrer"
-          className="block w-full max-w-2xl rounded-2xl overflow-hidden shadow-xl hover:opacity-90 transition"
+          className="block w-full max-w-2xl rounded-2xl overflow-hidden shadow-xl hover:opacity-90 hover:shadow-fuchsia-500/20 transition duration-200"
         >
           <img
             src="/daichan132-Sharable-Profile)-Horizontal.jpg"
             alt={t('supportImgAlt')}
-            className="w-full h-auto object-cover"
+            className="w-full h-auto object-cover rounded-2xl"
             loading="lazy"
+            decoding="async"
           />
         </a>
       </div>

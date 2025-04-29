@@ -27,10 +27,10 @@ export function LanguageSwitcher() {
   };
 
   return (
-    <div className="fixed top-4 left-4 z-[10002]">
+    <div className="fixed top-6 left-6 z-[10002]">
       <Select value={currentLanguage.code} onValueChange={switchLanguage}>
         <SelectTrigger
-          className="h-10 px-3 rounded-lg bg-white/70 dark:bg-neutral-800/60 backdrop-blur-sm ring-1 ring-neutral-900/10 dark:ring-white/10 shadow-sm flex items-center justify-center transition-transform cursor-pointer border-0" // Add border-0 to remove default border and match ThemeToggle
+          className="h-10 px-3 rounded-lg bg-white/70 dark:bg-neutral-800/60 backdrop-blur-sm ring-1 ring-neutral-900/10 dark:ring-white/10 shadow-sm flex items-center justify-center transition-transform cursor-pointer border-0 focus:ring-2 focus:ring-fuchsia-400 focus:ring-offset-2"
           aria-label="Change language"
         >
           {/* Display the name of the current language */}

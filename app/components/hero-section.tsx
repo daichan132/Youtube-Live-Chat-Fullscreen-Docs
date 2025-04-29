@@ -6,10 +6,10 @@ import { TextWithTags } from "~/components/ui/text-with-tags";
 
 export function HeroSection() {
   const { t } = useTranslation();
-  
+
   return (
     <motion.section
-      className="relative overflow-hidden min-h-screen flex flex-col justify-center items-center px-4"
+      className="relative overflow-hidden min-h-screen flex flex-col justify-center items-center px-6 sm:px-10 pt-24 pb-20"
       initial="hidden"
       animate="visible"
       variants={fadeUp}
@@ -17,14 +17,11 @@ export function HeroSection() {
       <motion.h1 className="text-center text-4xl sm:text-6xl font-extrabold tracking-tight mb-6">
         {t('heroTitle')}
       </motion.h1>
-      <motion.p className="max-w-md text-center text-neutral-600 dark:text-neutral-300 mb-10">
+      <motion.p className="max-w-xl text-center text-base sm:text-lg text-neutral-700 dark:text-neutral-100 mb-10">
         <TextWithTags content={t('heroDesc')} />
       </motion.p>
-
       {/* CTA */}
-      <motion.div
-        variants={fadeUp}
-      >
+      <motion.div variants={fadeUp}>
         <HeroButtons />
       </motion.div>
     </motion.section>

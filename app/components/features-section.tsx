@@ -18,15 +18,16 @@ export function FeatureCard({ icon, title, desc, index }: FeatureCardProps) {
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.2 }}
-      className="rounded-xl border border-neutral-300/40 dark:border-white/10 bg-white/90 dark:bg-[#181818]/90 backdrop-blur p-8 flex flex-col items-center text-center gap-3 hover:shadow-lg hover:scale-[1.03] transition-transform"
+      className="rounded-xl border border-neutral-300/40 dark:border-white/10 bg-white/90 dark:bg-[#181818]/90 backdrop-blur p-7 flex flex-col items-center text-center gap-3 hover:shadow-lg hover:shadow-fuchsia-500/20 hover:scale-105 transition duration-200 focus-within:ring-2 focus-within:ring-fuchsia-400"
+      tabIndex={0}
     >
       <div className="text-3xl text-violet-600 dark:text-violet-400 mb-2 flex-shrink-0">
         {icon}
       </div>
-      <h3 className="font-semibold text-base text-[#141414]/90 dark:text-white/90">
+      <h3 className="font-semibold text-lg text-[#141414]/90 dark:text-white/90">
         {title}
       </h3>
-      <p className="text-sm text-neutral-600 dark:text-neutral-300 leading-relaxed">
+      <p className="text-base text-neutral-700 dark:text-neutral-100 leading-relaxed">
         {desc}
       </p>
     </motion.article>
@@ -55,9 +56,9 @@ export function FeatureSection() {
   }));
 
   return (
-    <section id="features" className="pt-28 pb-36 px-8 sm:px-12">
+    <section id="features" className="pt-20 pb-28 px-6 sm:px-10">
       <motion.h2
-        className="text-center text-3xl sm:text-4xl font-semibold mb-20"
+        className="text-center text-3xl sm:text-4xl font-semibold mb-14"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
@@ -65,8 +66,7 @@ export function FeatureSection() {
       >
         {t('featuresTitle')}
       </motion.h2>
-
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {featureItems.map((f, i) => (
           <FeatureCard
             key={f.title}
