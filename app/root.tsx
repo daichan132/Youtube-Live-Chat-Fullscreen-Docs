@@ -26,6 +26,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
         {children}
         <ScrollRestoration />
         <Scripts />
+        <footer className="text-center text-sm text-neutral-500 py-4">
+          © 2025 daichan132
+        </footer>
       </body>
     </html>
   );

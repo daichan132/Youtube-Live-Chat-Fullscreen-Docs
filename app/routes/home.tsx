@@ -39,7 +39,7 @@ export default function Index() {
       <ThemeToggle />
       <LanguageSwitcher />
 
-      <main className="font-outfit bg-gray-50 text-[#141414] dark:bg-gray-950 dark:text-white selection:bg-cyan-500/40 dark:selection:bg-cyan-500/60">
+      <main className="font-outfit bg-gray-50 text-[#141414] dark:bg-gray-950 dark:text-white selection:bg-cyan-500/40 dark:selection:bg-cyan-500/60 pb-12">
         {/* ヒーローセクション */}
         <HeroSection />
 
