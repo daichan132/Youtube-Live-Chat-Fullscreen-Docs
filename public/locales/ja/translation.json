@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Fullscreen | Official Site",
+  "description": "YouTube Live をフルスクリーンのままチャットできる軽量 OSS ブラウザ拡張です。",
+  "heroTitle": "YouTube Live Chat Fullscreen",
+  "heroDesc": "YouTube ライブを <b>フルスクリーン</b> のまま楽しみながらチャットを読んで書ける拡張機能",
+  "featuresTitle": "主な機能",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "全画面でも投稿可能",
+      "desc": "全画面時でもチャットを閲覧・投稿できます"
+    },
+    {
+      "icon": "FaEdit",
+      "title": "チャットのスタイル自由",
+      "desc": "背景・文字色・フォントサイズなどを編集可能"
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "ウィンドウ自在",
+      "desc": "好きなサイズと位置へドラッグ＆ドロップ"
+    }
+  ],
+  "supportTitle": "サポートする",
+  "supportDesc": "すべての機能を <b>無料 & オープンソース</b> で提供しています。<br />気に入っていただけたら、コーヒー 1 杯で応援してもらえると嬉しいです ☕",
+  "supportImgAlt": "Support daichan132 on Ko-fi",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

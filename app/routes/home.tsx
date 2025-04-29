@@ -1,10 +1,11 @@
 import type { Route } from "./+types/home";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { GlowCursor, ThemeToggle } from "~/components/ui/theme";
+import { LanguageSwitcher } from "~/components/ui/language-switcher";
 import { HeroSection } from "~/components/hero-section";
 import { FeatureSection } from "~/components/features-section";
 import { SupportSection } from "~/components/support-section";
-import { useTranslation } from "~/lib/i18n";
 
 /* -------------------------------------------------------------------------- */
 /*                                  meta                                      */
@@ -12,10 +13,10 @@ import { useTranslation } from "~/lib/i18n";
 export const meta: Route.MetaFunction = () => {
   const { t } = useTranslation();
   return [
-    { title: t.title },
+    { title: t('title') },
     {
       name: "description",
-      content: t.description,
+      content: t('description'),
     },
   ];
 };
@@ -36,16 +37,17 @@ export default function Index() {
     <>
       <GlowCursor />
       <ThemeToggle />
+      <LanguageSwitcher />
 
       <main className="font-outfit bg-gray-50 text-[#141414] dark:bg-gray-950 dark:text-white selection:bg-cyan-500/40 dark:selection:bg-cyan-500/60">
         {/* ヒーローセクション */}
-        <HeroSection t={t} />
+        <HeroSection />
 
         {/* 特徴セクション */}
-        <FeatureSection t={t} />
+        <FeatureSection />
 
         {/* サポートセクション */}
-        <SupportSection t={t} />
+        <SupportSection />
       </main>
     </>
   );

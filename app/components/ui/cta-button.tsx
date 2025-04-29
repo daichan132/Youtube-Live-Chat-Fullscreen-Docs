@@ -1,6 +1,6 @@
 import { Button } from "~/components/ui/button";
 import { FaChrome, FaFirefox, FaGithub } from "react-icons/fa";
-import type { Dictionary } from "~/lib/i18n";
+import { useTranslation } from "react-i18next";
 
 export function CTAButton({
   href,
@@ -32,25 +32,27 @@ export function CTAButton({
   );
 }
 
-export function HeroButtons({ t }: { t: Dictionary }) {
+export function HeroButtons() {
+  const { t } = useTranslation();
+
   return (
     <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
       <CTAButton
         href="https://chromewebstore.google.com/detail/youtube-live-chat-fullscr/dlnjcbkmomenmieechnmgglgcljhoepd"
         icon={<FaChrome />}
-        label={t.chrome}
+        label={t('chrome')}
         colour="from-violet-500 to-fuchsia-500"
       />
       <CTAButton
         href="https://addons.mozilla.org/ja/firefox/addon/youtube-live-chat-fullscreen/"
         icon={<FaFirefox />}
-        label={t.firefox}
+        label={t('firefox')}
         colour="from-orange-500 to-rose-500"
       />
       <CTAButton
         href="https://github.com/daichan132/Youtube-Live-Chat-Fullscreen"
         icon={<FaGithub />}
-        label={t.github}
+        label={t('github')}
         outline
       />
     </div>

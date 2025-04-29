@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FaComments, FaEdit, FaArrowsAlt } from "react-icons/fa";
 import { fadeUp } from "~/lib/animations";
-import type { Dictionary } from "~/lib/i18n";
+import { useTranslation } from "react-i18next";
 
 interface FeatureCardProps {
   icon: React.ReactNode;
@@ -33,8 +33,18 @@ export function FeatureCard({ icon, title, desc, index }: FeatureCardProps) {
   );
 }
 
-export function FeatureSection({ t }: { t: Dictionary }) {
-  const features = t.features.map((f) => ({
+export function FeatureSection() {
+  const { t } = useTranslation();
+
+  // JSONからデータを取得して変換
+  const features = t('features', { returnObjects: true }) as Array<{
+    icon: string;
+    title: string;
+    desc: string;
+  }>;
+
+  // アイコンをReactコンポーネントに変換
+  const featureItems = features.map((f) => ({
     ...f,
     icon:
       f.icon === "FaComments"
@@ -53,11 +63,11 @@ export function FeatureSection({ t }: { t: Dictionary }) {
         viewport={{ once: true }}
         variants={fadeUp}
       >
-        {t.featuresTitle}
+        {t('featuresTitle')}
       </motion.h2>
 
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-14">
-        {features.map((f, i) => (
+        {featureItems.map((f, i) => (
           <FeatureCard
             key={f.title}
             icon={f.icon}

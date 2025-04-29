@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Fullscreen | Official Site",
+  "description": "A lightweight OSS browser extension for chatting on YouTube Live while fullscreen.",
+  "heroTitle": "YouTube Live Chat Fullscreen",
+  "heroDesc": "A browser extension that lets you read and write chat while enjoying YouTube Live in <b>fullscreen</b> mode.",
+  "featuresTitle": "Main Features",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "Post in Fullscreen",
+      "desc": "View and post chat even in fullscreen mode."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "Customizable Chat Style",
+      "desc": "Edit background, text color, font size, and more."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "Flexible Window",
+      "desc": "Drag & drop to any size and position."
+    }
+  ],
+  "supportTitle": "Support",
+  "supportDesc": "All features are provided <b>free & open source</b>.<br />If you like it, please support me with a cup of coffee ☕",
+  "supportImgAlt": "Support daichan132 on Ko-fi",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

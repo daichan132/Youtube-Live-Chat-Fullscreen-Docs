@@ -1,8 +1,11 @@
 import { motion } from "framer-motion";
 import { fadeUp } from "~/lib/animations";
-import type { Dictionary } from "~/lib/i18n";
+import { useTranslation } from "react-i18next";
+import { TextWithTags } from "~/components/ui/text-with-tags";
 
-export function SupportSection({ t }: { t: Dictionary }) {
+export function SupportSection() {
+  const { t } = useTranslation();
+  
   return (
     <motion.section
       id="donate"
@@ -14,13 +17,12 @@ export function SupportSection({ t }: { t: Dictionary }) {
     >
       <div className="max-w-5xl mx-auto flex flex-col items-center gap-16">
         <h2 className="text-center text-3xl sm:text-4xl font-semibold">
-          {t.supportTitle}
+          {t('supportTitle')}
         </h2>
 
-        <p
-          className="text-center max-w-2xl text-sm sm:text-base text-neutral-600 dark:text-neutral-300"
-          dangerouslySetInnerHTML={{ __html: t.supportDesc }}
-        />
+        <p className="text-center max-w-2xl text-sm sm:text-base text-neutral-600 dark:text-neutral-300">
+          <TextWithTags content={t('supportDesc')} />
+        </p>
 
         <a
           href="https://ko-fi.com/daichan132"
@@ -30,7 +32,7 @@ export function SupportSection({ t }: { t: Dictionary }) {
         >
           <img
             src="/daichan132-Sharable-Profile)-Horizontal.jpg"
-            alt={t.supportImgAlt}
+            alt={t('supportImgAlt')}
             className="w-full h-auto object-cover"
             loading="lazy"
           />

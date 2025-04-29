@@ -10,6 +10,8 @@ import {
 import type { Route } from "./+types/root";
 import "./app.css";
 import "@fontsource/outfit";
+// i18n設定を読み込む
+import "./lib/i18n";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
