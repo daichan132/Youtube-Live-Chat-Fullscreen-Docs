@@ -19,7 +19,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* Explicitly set favicon path using BASE_URL */}
+        <meta name="google-site-verification" content="mRcYAdfLj4mcbjffnFSUVW5_Zk9Nh5zjI0LTcj9SPT0" />
         <link rel="icon" href={`${import.meta.env.BASE_URL}favicon.ico`} />
         <Meta />
         <Links />
