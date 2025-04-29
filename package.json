@@ -1,12 +1,15 @@
 {
   "name": "youtube-live-chat-fullscreen-docs",
+  "homepage": "https://daichan132.github.io/Youtube-Live-Chat-Fullscreen-Docs/",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc"
+    "typecheck": "react-router typegen && tsc",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build/client"
   },
   "dependencies": {
     "@fontsource/outfit": "^5.2.5",
@@ -31,9 +34,11 @@
   "devDependencies": {
     "@react-router/dev": "^7.5.3",
     "@tailwindcss/vite": "^4.1.4",
+    "@types/gh-pages": "^6",
     "@types/node": "^22.15.3",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
+    "gh-pages": "^6.3.0",
     "react-router-devtools": "^1.1.10",
     "tailwindcss": "^4.1.4",
     "tw-animate-css": "^1.2.8",
