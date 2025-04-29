@@ -9,7 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write # Changed from read to write
       pages: write
       id-token: write # Required when using OIDC tokens
     steps:
