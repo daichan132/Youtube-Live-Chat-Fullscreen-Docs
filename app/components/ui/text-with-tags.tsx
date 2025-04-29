@@ -62,7 +62,11 @@ export function TextWithTags({ content }: TextWithTagsProps): React.ReactElement
             }
             result.push(<br key={currentIndex++} />);
           } else {
-            // 開始タグをスタックに追加
+            // 開始タグをスタックに追加する前に、直前のテキストを出力
+            if (currentContent) {
+              result.push(currentContent);
+              currentContent = '';
+            }
             tagStack.push(part);
           }
         }
