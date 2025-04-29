@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Vollbild | Offizielle Seite",
+  "description": "Eine unverzichtbare Open-Source-Erweiterung für Zuschauer, die noch mehr Immersion und Interaktion wollen: Genieße den Chat, ohne den Vollbildmodus zu verlassen.",
+  "heroTitle": "YouTube Live Chat Vollbild",
+  "heroDesc": "Lese und schreibe Chat-Nachrichten nahtlos – auch im Vollbildmodus, ohne dein Seherlebnis zu unterbrechen.",
+  "featuresTitle": "Hauptfunktionen",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "Chat im Vollbild",
+      "desc": "Sieh dir den Chat an und schreibe Nachrichten direkt im Vollbildmodus."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "Anpassbarer Chat",
+      "desc": "Passe Hintergrundfarbe, Textfarbe, Schriftgröße und mehr an."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "Flexibles Fenster",
+      "desc": "Ziehe und skaliere das Chatfenster beliebig."
+    }
+  ],
+  "supportTitle": "Unterstütze mich",
+  "supportDesc": "Diese Erweiterung bleibt immer komplett kostenlos und Open Source! Wenn sie dir gefällt, würde ich mich über einen Kaffee ☕️ zur Unterstützung der Entwicklung sehr freuen 🙂",
+  "supportImgAlt": "Unterstütze daichan132 auf Ko-fi",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

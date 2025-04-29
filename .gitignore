@@ -91,3 +91,5 @@ web-ext.config.ts
 # React Router
 /.react-router/
 /build/
+
+/i18n_scripts/

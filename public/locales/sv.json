@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Fullscreen | Officiell webbplats",
+  "description": "En oumbärlig öppen källkod-tillägg för tittare som vill ha mer inlevelse och interaktion – njut av chatten utan att lämna helskärm.",
+  "heroTitle": "YouTube Live Chat Fullscreen",
+  "heroDesc": "Läs och skriv i chatten smidigt även i helskärmsläge, utan att störa tittarupplevelsen.",
+  "featuresTitle": "Nyckelfunktioner",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "Chatt i helskärm",
+      "desc": "Visa och skriv meddelanden i chatten när du är i helskärmsläge."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "Anpassningsbar chatt",
+      "desc": "Ändra bakgrundsfärg, textfärg, teckenstorlek och mer."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "Flexibelt fönster",
+      "desc": "Dra och ändra storlek på chattfönstret som du vill."
+    }
+  ],
+  "supportTitle": "Stötta mig",
+  "supportDesc": "Tillägget kommer alltid vara helt gratis och med öppen källkod! Om du gillar det, får du gärna stötta utvecklingen med en kaffe ☕️ 🙂",
+  "supportImgAlt": "Stötta daichan132 på Ko-fi",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

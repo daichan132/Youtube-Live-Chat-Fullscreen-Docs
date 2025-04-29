@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Fullscreen | Laman Rasmi",
+  "description": "Sambungan sumber terbuka yang mesti dimiliki untuk penonton yang mahukan penghayatan dan interaksi—membolehkan anda menikmati chat tanpa perlu keluar dari mod skrin penuh.",
+  "heroTitle": "YouTube Live Chat Fullscreen",
+  "heroDesc": "Baca dan tulis mesej chat dengan lancar walaupun dalam mod skrin penuh, tanpa mengganggu pengalaman menonton anda.",
+  "featuresTitle": "Ciri-ciri Utama",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "Chat Skrin Penuh",
+      "desc": "Lihat dan hantar mesej chat dalam mod skrin penuh."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "Chat Boleh Ubahsuai",
+      "desc": "Ubah suai warna latar belakang, warna teks, saiz fon, dan banyak lagi."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "Tetingkap Fleksibel",
+      "desc": "Seret dan laraskan saiz tetingkap mengikut keselesaan anda."
+    }
+  ],
+  "supportTitle": "Sokong Saya",
+  "supportDesc": "Sambungan ini akan sentiasa PERCUMA dan sumber terbuka! Jika anda menikmatinya, saya amat menghargai sokongan anda dengan secawan kopi ☕️ untuk semangat pembangunan 🙂",
+  "supportImgAlt": "Sokong daichan132 di Ko-fi",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

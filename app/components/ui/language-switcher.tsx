@@ -6,14 +6,11 @@ import {
   SelectTrigger,
   SelectValue,
 } from "~/components/ui/select"; // Import shadcn/ui Select components
+import languageCodes from "../../../public/language_codes.json"; // Import language codes
 
-// Define language configuration
-const languages = [
-  { code: 'en', name: 'English' },
-  { code: 'ja', name: '日本語' },
-  // Add more languages here in the future
-  // { code: 'es', name: 'Español' },
-];
+// Define language configuration by mapping over the imported JSON
+const languages = Object.entries(languageCodes).map(([code, name]) => ({ code, name }));
+
 
 export function LanguageSwitcher() {
   const { i18n } = useTranslation();

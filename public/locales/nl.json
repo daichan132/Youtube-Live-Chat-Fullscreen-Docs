@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Fullscreen | Officiële site",
+  "description": "Een onmisbare open-source extensie voor kijkers die op zoek zijn naar meer beleving en interactie: geniet van de chat zonder het volledig scherm te verlaten.",
+  "heroTitle": "YouTube Live Chat Fullscreen",
+  "heroDesc": "Lees en verstuur moeiteloos chatberichten, zelfs in de volledig scherm modus, zonder je kijkervaring te onderbreken.",
+  "featuresTitle": "Belangrijkste functies",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "Volledig scherm chat",
+      "desc": "Bekijk en stuur chatberichten in de volledig scherm modus."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "Aanpasbare chat",
+      "desc": "Pas achtergrondkleur, tekstkleur, lettergrootte en meer aan."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "Flexibel venster",
+      "desc": "Versleep en wijzig de grootte van het venster zoals jij wilt."
+    }
+  ],
+  "supportTitle": "Steun mij",
+  "supportDesc": "Deze extensie blijft altijd helemaal gratis en open-source! Als je ervan geniet, steun me dan gerust met een kopje koffie ☕️ om de ontwikkeling te steunen 🙂",
+  "supportImgAlt": "Steun daichan132 op Ko-fi",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

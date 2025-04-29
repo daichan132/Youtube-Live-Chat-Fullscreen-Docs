@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Fullscreen | Tovuti Rasmi",
+  "description": "Kiendelezi muhimu na wazi kwa watazamaji wanaotaka kujihusisha zaidi na mazungumzo, kinakuruhusu kufurahia gumzo bila kutoka kwenye skrini nzima.",
+  "heroTitle": "YouTube Live Chat Fullscreen",
+  "heroDesc": "Soma na andika ujumbe wa gumzo kwa urahisi hata ukiwa kwenye skrini nzima bila kuathiri uangalizi wako wa video.",
+  "featuresTitle": "Vipengele Muhimu",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "Gumzo Katika Skrini Nzima",
+      "desc": "Tazama na tuma ujumbe wa gumzo ukiwa kwenye skrini nzima."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "Gumzo Linaloweza Kubadilishwa",
+      "desc": "Badilisha rangi ya nyuma, rangi ya maandishi, ukubwa wa herufi na zaidi."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "Dirisha Linalonyumbulika",
+      "desc": "Vuta na badilisha ukubwa wa dirisha utakavyo."
+    }
+  ],
+  "supportTitle": "Nisaidie",
+  "supportDesc": "Kiendelezi hiki kitaendelea kuwa bure kabisa na wazi kwa kila mtu! Ikiwa umekipenda, ningeithamini sana sapoti yako kwa kahawa ☕️ ili kusaidia maendeleo 🙂",
+  "supportImgAlt": "Msaidie daichan132 kwenye Ko-fi",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

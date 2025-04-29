@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Fullscreen | Virallinen sivu",
+  "description": "Välttämätön avoimen lähdekoodin laajennus katsojille, jotka haluavat syventyä katseluun ja osallistua keskusteluun – voit nauttia chatista poistumatta koko ruudun tilasta.",
+  "heroTitle": "YouTube Live Chat Fullscreen",
+  "heroDesc": "Lue ja kirjoita chat-viestejä saumattomasti myös koko ruudun tilassa – ilman että katselukokemus keskeytyy.",
+  "featuresTitle": "Tärkeimmät ominaisuudet",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "Chat koko ruudulla",
+      "desc": "Katsele ja lähetä chat-viestejä koko ruudun tilassa."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "Muokattava chat",
+      "desc": "Vaihda taustaväriä, tekstin väriä, fonttikokoa ja paljon muuta."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "Joustava ikkuna",
+      "desc": "Vedä ja muuta chat-ikkunan kokoa tarpeidesi mukaan."
+    }
+  ],
+  "supportTitle": "Tue kehitystä",
+  "supportDesc": "Tämä laajennus pysyy aina täysin ilmaisena ja avoimen lähdekoodin! Jos pidät siitä, arvostaisin tukeasi kahvikupillisella ☕️ kehitystyön tueksi 🙂",
+  "supportImgAlt": "Tue daichan132:ta Ko-fissa",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

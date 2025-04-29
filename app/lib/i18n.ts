@@ -3,6 +3,7 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import Backend from 'i18next-http-backend';
 import type { InitOptions } from 'i18next';
+import languageCodes from '../../public/language_codes.json'; // Import language codes
 
 // 型定義
 export type Dictionary = {
@@ -28,8 +29,8 @@ export type Dictionary = {
 const i18nOptions: InitOptions = {
   // 言語検出に失敗した場合のフォールバック言語
   fallbackLng: 'en',
-  // サポートする言語
-  supportedLngs: ['en', 'ja'],
+  // サポートする言語 - Dynamically get keys from imported JSON
+  supportedLngs: Object.keys(languageCodes),
   // キーが見つからない場合はキー名をそのまま表示
   keySeparator: false,
   interpolation: {
@@ -38,7 +39,7 @@ const i18nOptions: InitOptions = {
   },
   // JSON読み込みの設定
   backend: {
-    loadPath: '/locales/{{lng}}/{{ns}}.json',
+    loadPath: '/locales/{{lng}}.json',
   },
   // 言語検出の設定
   detection: {

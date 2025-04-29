@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Fullscreen｜官方網站",
+  "description": "一款不可或缺的開源擴充功能，讓追求沉浸感與互動性的觀眾能在全螢幕下也能享受聊天室，不必離開全螢幕畫面。",
+  "heroTitle": "YouTube Live Chat Fullscreen",
+  "heroDesc": "就算在全螢幕模式中，也能無縫閱讀和發送聊天室訊息，不會中斷您的觀看體驗。",
+  "featuresTitle": "主要功能",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "全螢幕聊天室",
+      "desc": "在全螢幕模式下也能閱讀與發送聊天室訊息。"
+    },
+    {
+      "icon": "FaEdit",
+      "title": "聊天室自訂化",
+      "desc": "可自行調整背景色、文字顏色、字體大小等。"
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "彈性視窗",
+      "desc": "視窗可自由拖曳並調整大小，操作更靈活。"
+    }
+  ],
+  "supportTitle": "支持我",
+  "supportDesc": "這個擴充功能將永遠完全免費且開源！如果你喜歡，歡迎請我喝杯咖啡☕️，支持開發繼續前進🙂",
+  "supportImgAlt": "在 Ko-fi 支持 daichan132",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

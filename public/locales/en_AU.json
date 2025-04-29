@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Fullscreen | Official Site",
+  "description": "A must-have open-source extension for viewers wanting immersion and interaction—enjoy chat without ever leaving fullscreen.",
+  "heroTitle": "YouTube Live Chat Fullscreen",
+  "heroDesc": "Seamlessly read and send chat messages in fullscreen mode, without interrupting your viewing.",
+  "featuresTitle": "Key Features",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "Fullscreen Chat",
+      "desc": "View and send chat messages in fullscreen."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "Customisable Chat",
+      "desc": "Change the background colour, text colour, font size, and more."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "Flexible Window",
+      "desc": "Drag and resize the chat window as you like."
+    }
+  ],
+  "supportTitle": "Support Me",
+  "supportDesc": "This extension will always be 100% free and open-source! If you enjoy it, support me with a coffee ☕️ to help keep development going 🙂",
+  "supportImgAlt": "Support daichan132 on Ko-fi",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

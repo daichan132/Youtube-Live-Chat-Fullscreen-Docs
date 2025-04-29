@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Fullscreen | Site Oficial",
+  "description": "Uma extensão essencial e de código aberto para quem busca imersão e interação, permitindo aproveitar o chat sem sair do modo tela cheia.",
+  "heroTitle": "YouTube Live Chat Fullscreen",
+  "heroDesc": "Leia e envie mensagens do chat de forma integrada, mesmo no modo tela cheia, sem interromper a sua experiência.",
+  "featuresTitle": "Principais Recursos",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "Chat em Tela Cheia",
+      "desc": "Visualize e envie mensagens do chat no modo tela cheia."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "Chat Personalizável",
+      "desc": "Altere a cor de fundo, a cor do texto, o tamanho da fonte e muito mais."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "Janela Flexível",
+      "desc": "Arraste e redimensione a janela como quiser."
+    }
+  ],
+  "supportTitle": "Apoie-me",
+  "supportDesc": "Esta extensão sempre será totalmente gratuita e de código aberto! Se você estiver curtindo, apoie o desenvolvimento com um café ☕️ 🙂",
+  "supportImgAlt": "Apoie daichan132 no Ko-fi",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

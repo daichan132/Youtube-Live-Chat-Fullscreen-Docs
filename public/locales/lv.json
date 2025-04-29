@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Tiešraides Čats Pilnekrānā | Oficiālā Lapa",
+  "description": "Neaizvietojams atvērtā koda paplašinājums skatītājiem, kuri vēlas pilnīgu iedziļināšanos un mijiedarbību, ļaujot baudīt čatu, neatstājot pilnekrāna režīmu.",
+  "heroTitle": "YouTube Tiešraides Čats Pilnekrānā",
+  "heroDesc": "Ērti lasi un raksti čata ziņas pat pilnekrāna režīmā, nepārtraukt skatīšanos.",
+  "featuresTitle": "Galvenās Iespējas",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "Pilnekrāna Čats",
+      "desc": "Skaties un raksti čata ziņas pilnekrāna režīmā."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "Pielāgojams Čats",
+      "desc": "Maini fona krāsu, teksta krāsu, fonta izmēru un citus iestatījumus."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "Elastīgs Logs",
+      "desc": "Velc un maini loga izmēru pēc vēlēšanās."
+    }
+  ],
+  "supportTitle": "Atbalsti Mani",
+  "supportDesc": "Šis paplašinājums vienmēr būs pilnībā bezmaksas un ar atvērtu kodu! Ja tev tas patīk, būšu priecīgs par tavu atbalstu ar kafiju ☕️, lai varu turpināt attīstību 🙂",
+  "supportImgAlt": "Atbalsti daichan132 vietnē Ko-fi",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

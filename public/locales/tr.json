@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Canlı Sohbet Tam Ekran | Resmi Site",
+  "description": "Tam ekrandan çıkmadan sohbeti keyifle sürdürebileceğiniz, etkileşimi ve sürükleyiciliği önceleyen izleyiciler için vazgeçilmez, açık kaynaklı bir eklenti.",
+  "heroTitle": "YouTube Canlı Sohbet Tam Ekran",
+  "heroDesc": "Tam ekran modundayken bile sohbet mesajlarını kesintisiz okuma ve yazma imkânı, izleme deneyiminizi bölmeden sohbet edin.",
+  "featuresTitle": "Başlıca Özellikler",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "Tam Ekran Sohbet",
+      "desc": "Sohbet mesajlarını tam ekranda görüntüleyin ve mesaj gönderin."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "Kişiselleştirilebilir Sohbet",
+      "desc": "Arka plan rengi, yazı rengi, yazı tipi boyutu ve daha fazlasını değiştirin."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "Esnek Pencere",
+      "desc": "Pencereyi sürükleyip istediğiniz boyuta getirin."
+    }
+  ],
+  "supportTitle": "Bana Destek Olun",
+  "supportDesc": "Bu eklenti her zaman tamamen ücretsiz ve açık kaynaklı kalacak! Beğendiyseniz, bir kahve ☕️ ile geliştirmeye destek olursanız çok sevinirim 🙂",
+  "supportImgAlt": "daichan132'yi Ko-fi'de destekleyin",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}
