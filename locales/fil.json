@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Fullscreen | Opisyal na Site",
+  "description": "Isang mahalagang open-source na extension para sa mga manonood na gustong mas maging malapit at makipag-ugnayan—magagawa mong mag-chat nang hindi umaalis sa fullscreen.",
+  "heroTitle": "YouTube Live Chat Fullscreen",
+  "heroDesc": "Madaling mabasa at makapagsulat ng mga mensahe sa chat kahit nasa fullscreen mode, nang hindi naaabala ang panonood mo.",
+  "featuresTitle": "Pangunahing Mga Tampok",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "Fullscreen na Chat",
+      "desc": "Tumingin at mag-post ng mga chat message habang naka-fullscreen."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "Naiaangkop na Chat",
+      "desc": "Baguhin ang kulay ng background, kulay ng teksto, laki ng font, at iba pa."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "Flexible na Window",
+      "desc": "I-drag at ayusin ang laki ng window ayon sa gusto mo."
+    }
+  ],
+  "supportTitle": "Suportahan Ako",
+  "supportDesc": "Laging magiging libre at open-source ang extension na ito! Kung natuwa ka, ma-appreciate ko ang kahit kape ☕️ bilang suporta upang mapalago pa ang development 🙂",
+  "supportImgAlt": "Suportahan si daichan132 sa Ko-fi",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

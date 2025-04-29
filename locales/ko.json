@@ -1,0 +1,30 @@
+{
+  "title": "YouTube 라이브 채팅 전체화면 | 공식 사이트",
+  "description": "몰입감과 상호작용을 원하는 시청자를 위한 필수 오픈소스 확장 프로그램으로, 전체화면을 나가지 않아도 채팅을 즐길 수 있습니다.",
+  "heroTitle": "YouTube 라이브 채팅 전체화면",
+  "heroDesc": "전체화면 모드에서도 시청을 방해하지 않고 채팅을 매끄럽게 읽고 쓸 수 있습니다.",
+  "featuresTitle": "주요 기능",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "전체화면 채팅",
+      "desc": "전체화면 모드에서 채팅을 보고 작성할 수 있습니다."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "채팅 맞춤 설정",
+      "desc": "배경색, 글자색, 글꼴 크기 등 다양한 설정을 변경할 수 있습니다."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "유연한 창 조절",
+      "desc": "창을 원하는 위치로 드래그하거나 크기를 쉽게 조절할 수 있습니다."
+    }
+  ],
+  "supportTitle": "후원하기",
+  "supportDesc": "이 확장 프로그램은 앞으로도 완전 무료이자 오픈소스로 제공됩니다! 마음에 드신다면 커피 한 잔☕️으로 개발을 응원해주시면 감사하겠습니다 🙂",
+  "supportImgAlt": "Ko-fi에서 daichan132 후원하기",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

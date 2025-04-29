@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Fullscreen | Službena stranica",
+  "description": "Nezaobilazan open-source dodatak za gledatelje koji žele potpun doživljaj i interakciju – omogućuje chat bez napuštanja cijelog zaslona.",
+  "heroTitle": "YouTube Live Chat Fullscreen",
+  "heroDesc": "Bez prekidanja gledanja, čitajte i pišite poruke u chatu čak i dok ste na cijelom zaslonu.",
+  "featuresTitle": "Glavne značajke",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "Chat u cijelom zaslonu",
+      "desc": "Gledajte i šaljite poruke u chatu dok ste u prikazu cijelog zaslona."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "Prilagodljiv chat",
+      "desc": "Promijenite boju pozadine, boju teksta, veličinu fonta i još mnogo toga."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "Fleksibilan prozor",
+      "desc": "Pomičite i mijenjajte veličinu prozora kako vam odgovara."
+    }
+  ],
+  "supportTitle": "Podrži me",
+  "supportDesc": "Ovaj dodatak će uvijek biti potpuno besplatan i otvorenog koda! Ako vam se sviđa, podržite razvoj kavom ☕️ – puno mi znači 🙂",
+  "supportImgAlt": "Podrži daichan132 na Ko-fi",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

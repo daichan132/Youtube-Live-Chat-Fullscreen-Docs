@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Fullscreen｜官方网站",
+  "description": "这是一款专为追求沉浸感和互动体验的观众打造的开源必备扩展，允许你全屏观看时也能畅享聊天。",
+  "heroTitle": "YouTube全屏实时聊天",
+  "heroDesc": "即使在全屏模式下，也能无缝读取和发送聊天消息，观影体验不受打扰。",
+  "featuresTitle": "主要功能",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "全屏聊天",
+      "desc": "在全屏模式下查看和发送聊天消息。"
+    },
+    {
+      "icon": "FaEdit",
+      "title": "聊天自定义",
+      "desc": "可更改背景色、文字颜色、字体大小等。"
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "灵活窗口",
+      "desc": "支持拖动和调整窗口大小，随心所欲。"
+    }
+  ],
+  "supportTitle": "支持我",
+  "supportDesc": "本扩展将始终免费并开源！如果你喜欢它，欢迎请我喝杯咖啡☕️，助力开发🙂",
+  "supportImgAlt": "在 Ko-fi 上支持 daichan132",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

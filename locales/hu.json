@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Fullscreen | Hivatalos oldal",
+  "description": "Egy elengedhetetlen, nyílt forráskódú bővítmény azoknak a nézőknek, akik belemerülnének a nézésbe és aktívan részt vennének a csevegésben – segítségével még teljes képernyős módban is élvezheted a chatet anélkül, hogy kilépnél az élményből.",
+  "heroTitle": "YouTube Live Chat Fullscreen",
+  "heroDesc": "Olvashatsz és írhatsz chatüzeneteket zökkenőmentesen, még teljes képernyős módban is, anélkül hogy zavarnád a nézést.",
+  "featuresTitle": "Főbb funkciók",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "Teljes képernyős chat",
+      "desc": "Csevegőüzenetek megtekintése és küldése teljes képernyős módban."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "Testreszabható chat",
+      "desc": "Módosíthatod a háttérszínt, a szövegszínt, a betűméretet és egyebeket."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "Rugalmas ablak",
+      "desc": "Tetszés szerint húzhatod, méretezheted az ablakot."
+    }
+  ],
+  "supportTitle": "Támogasd a fejlesztőt",
+  "supportDesc": "Ez a bővítmény mindig teljesen ingyenes és nyílt forráskódú marad! Ha tetszik, egy kávéval ☕️ nagyon támogatnád a fejlesztést 🙂",
+  "supportImgAlt": "Támogasd daichan132-t Ko-fi-n",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Fullscreen | Uradna stran",
+  "description": "Nepogrešljiva odprtokodna razširitev za gledalce, ki želijo večjo vključenost in interakcijo – omogoča, da uživate v klepetu, ne da bi zapustili celozaslonski način.",
+  "heroTitle": "YouTube Live Chat Fullscreen",
+  "heroDesc": "Klepetalna sporočila lahko nemoteno berete in pišete tudi v celozaslonskem načinu, brez prekinjanja gledanja.",
+  "featuresTitle": "Glavne funkcije",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "Celozaslonski klepet",
+      "desc": "Ogledujte si in pošiljajte sporočila v klepetu tudi v celozaslonskem načinu."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "Prilagodljiv klepet",
+      "desc": "Spremenite barvo ozadja, barvo besedila, velikost pisave in več."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "Prilagodljivo okno",
+      "desc": "Okno lahko poljubno premikate in spreminjate njegovo velikost."
+    }
+  ],
+  "supportTitle": "Podprite me",
+  "supportDesc": "Ta razširitev bo vedno popolnoma brezplačna in odprtokodna! Če vam je všeč, bom zelo vesel vaše podpore s kavo ☕️, ki spodbuja razvoj 🙂",
+  "supportImgAlt": "Podprite daichan132 na Ko-fi",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

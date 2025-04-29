@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Fullscreen | Ametlik leht",
+  "description": "Oluline avatud lähtekoodiga laiendus kõigile, kes soovivad süveneda ja suhelda – naudi vestlust lahkumata täisekraanirežiimist.",
+  "heroTitle": "YouTube Live Chat Fullscreen",
+  "heroDesc": "Loe ja kirjuta vestlusse täisekraanil sujuvalt ilma vaatamiskogemust katkestamata.",
+  "featuresTitle": "Põhifunktsioonid",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "Täisekraani vestlus",
+      "desc": "Vaata ja kirjuta vestlusesse otse täisekraanirežiimis."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "Kohandatav vestlusaken",
+      "desc": "Muuda taustavärvi, teksti värvi, fondi suurust ja palju muud."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "Paindlik aken",
+      "desc": "Lohista ja muuda akna suurust täpselt nii, nagu soovid."
+    }
+  ],
+  "supportTitle": "Toeta mind",
+  "supportDesc": "See laiendus jääb alati täiesti tasuta ja avatud lähtekoodiga! Kui see sulle meeldib, saad arenduse toetamiseks teha mulle kohvi ☕️ — oleksin väga tänulik 🙂",
+  "supportImgAlt": "Toeta kasutajat daichan132 Ko-fi kaudu",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

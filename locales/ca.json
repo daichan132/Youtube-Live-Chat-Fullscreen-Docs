@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Fullscreen | Lloc oficial",
+  "description": "Una extensió essencial i de codi obert per als espectadors que volen immersió i interacció, permetent gaudir del xat sense sortir mai del mode de pantalla completa.",
+  "heroTitle": "YouTube Live Chat Fullscreen",
+  "heroDesc": "Llegeix i escriu missatges de xat sense interrupcions, fins i tot en mode de pantalla completa, sense afectar la teva experiència de visualització.",
+  "featuresTitle": "Funcions principals",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "Xat en pantalla completa",
+      "desc": "Consulta i envia missatges de xat en mode de pantalla completa."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "Xat personalitzable",
+      "desc": "Canvia el color de fons, el color del text, la mida de la lletra i més opcions."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "Finestra flexible",
+      "desc": "Arrossega i redimensiona la finestra com vulguis."
+    }
+  ],
+  "supportTitle": "Dona’m suport",
+  "supportDesc": "Aquesta extensió sempre serà totalment gratuïta i de codi obert! Si t’agrada, t’agrairia molt el teu suport amb un cafè ☕️ per ajudar-me a seguir desenvolupant 🙂",
+  "supportImgAlt": "Dona suport a daichan132 a Ko-fi",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

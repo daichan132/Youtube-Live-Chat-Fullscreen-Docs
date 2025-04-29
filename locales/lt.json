@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Fullscreen | Oficiali svetainė",
+  "description": "Esminis atvirojo kodo plėtinys žiūrovams, ieškantiems įsitraukimo ir bendravimo – mėgaukitės pokalbiais neišeidami iš viso ekrano režimo.",
+  "heroTitle": "YouTube Live Chat Fullscreen",
+  "heroDesc": "Skaitykite ir rašykite pokalbį net ir viso ekrano režime – jūsų žiūrėjimo patirtis nenutrūks.",
+  "featuresTitle": "Pagrindinės funkcijos",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "Pokalbis visame ekrane",
+      "desc": "Matykite ir rašykite pranešimus pokalbyje viso ekrano režime."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "Pokalbio pritaikymas",
+      "desc": "Keiskite fono spalvą, teksto spalvą, šrifto dydį ir daugiau."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "Lankstus langas",
+      "desc": "Vilktelėkite ir keiskite lango dydį taip, kaip patogu."
+    }
+  ],
+  "supportTitle": "Palaikykite mane",
+  "supportDesc": "Šis plėtinys visada liks visiškai nemokamas ir atviro kodo! Jei jis jums patiko, būčiau dėkingas už kavos puodelį ☕️ motyvacijai ir tolimesnei plėtrai 🙂",
+  "supportImgAlt": "Palaikykite daichan132 per Ko-fi",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

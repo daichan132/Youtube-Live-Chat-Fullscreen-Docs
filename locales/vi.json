@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Fullscreen | Trang chính thức",
+  "description": "Một tiện ích mã nguồn mở cần thiết cho người xem muốn trải nghiệm sâu và tương tác, cho phép bạn thưởng thức trò chuyện mà không cần thoát khỏi chế độ toàn màn hình.",
+  "heroTitle": "YouTube Live Chat Fullscreen",
+  "heroDesc": "Dễ dàng đọc và gửi tin nhắn chat ngay cả khi ở chế độ toàn màn hình mà không làm gián đoạn trải nghiệm xem của bạn.",
+  "featuresTitle": "Tính năng nổi bật",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "Chat toàn màn hình",
+      "desc": "Xem và gửi tin nhắn chat trong chế độ toàn màn hình."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "Tùy chỉnh chat",
+      "desc": "Thay đổi màu nền, màu chữ, kích thước chữ và nhiều hơn nữa."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "Cửa sổ linh hoạt",
+      "desc": "Kéo và thay đổi kích thước cửa sổ theo ý muốn."
+    }
+  ],
+  "supportTitle": "Ủng hộ mình",
+  "supportDesc": "Tiện ích này luôn hoàn toàn miễn phí và mã nguồn mở! Nếu bạn thấy hữu ích, hãy ủng hộ mình một ly cà phê ☕️ để tiếp thêm động lực phát triển nhé 🙂",
+  "supportImgAlt": "Ủng hộ daichan132 qua Ko-fi",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

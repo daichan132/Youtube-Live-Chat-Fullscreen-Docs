@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Fullscreen | Site Oficial",
+  "description": "O extensie open-source esențială pentru privitorii care caută imersiune și interacțiune, permițându-ți să te bucuri de chat fără a ieși vreodată din modul ecran complet.",
+  "heroTitle": "YouTube Live Chat Fullscreen",
+  "heroDesc": "Citește și scrie mesaje în chat fără întreruperi, chiar și în modul ecran complet, fără să deranjezi experiența de vizionare.",
+  "featuresTitle": "Funcții principale",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "Chat pe ecran complet",
+      "desc": "Vezi și trimite mesaje în chat în timp ce ești în modul ecran complet."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "Chat personalizabil",
+      "desc": "Schimbă culoarea de fundal, culoarea textului, dimensiunea fontului și multe altele."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "Fereastră flexibilă",
+      "desc": "Trage și redimensionează fereastra cum dorești."
+    }
+  ],
+  "supportTitle": "Susține-mă",
+  "supportDesc": "Această extensie va rămâne întotdeauna complet gratuită și open-source! Dacă îți place, mi-ar plăcea să mă susții cu o cafea ☕️ pentru a sprijini dezvoltarea 🙂",
+  "supportImgAlt": "Susține-l pe daichan132 pe Ko-fi",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

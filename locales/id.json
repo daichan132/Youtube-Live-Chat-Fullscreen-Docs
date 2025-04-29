@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Fullscreen | Situs Resmi",
+  "description": "Ekstensi open-source penting bagi penonton yang ingin merasakan pengalaman imersif dan interaktif, memungkinkan Anda menikmati chat tanpa harus keluar dari mode layar penuh.",
+  "heroTitle": "YouTube Live Chat Fullscreen",
+  "heroDesc": "Baca dan tulis pesan chat dengan lancar bahkan saat mode layar penuh tanpa mengganggu tontonan Anda.",
+  "featuresTitle": "Fitur Utama",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "Chat Layar Penuh",
+      "desc": "Lihat dan kirim pesan chat di mode layar penuh."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "Chat yang Dapat Disesuaikan",
+      "desc": "Ubah warna latar, warna teks, ukuran font, dan lainnya."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "Jendela Fleksibel",
+      "desc": "Geser dan ubah ukuran jendela sesuai keinginan Anda."
+    }
+  ],
+  "supportTitle": "Dukung Saya",
+  "supportDesc": "Ekstensi ini akan selalu sepenuhnya gratis dan open-source! Jika Anda menyukainya, dukungan Anda dengan secangkir kopi ☕️ sangat berarti untuk pengembangan 🙂",
+  "supportImgAlt": "Dukung daichan132 di Ko-fi",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}

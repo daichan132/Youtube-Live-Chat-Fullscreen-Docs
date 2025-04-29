@@ -1,0 +1,30 @@
+{
+  "title": "YouTube Live Chat Fullscreen | Oficiální stránky",
+  "description": "Nezbytné open-source rozšíření pro diváky, kteří chtějí být vtaženi do dění a komunikovat — užijte si chat, aniž byste museli opustit režim celé obrazovky.",
+  "heroTitle": "YouTube Live Chat Fullscreen",
+  "heroDesc": "Bez problémů čtěte a pište zprávy v chatu i v režimu celé obrazovky, aniž byste narušili svůj zážitek ze sledování.",
+  "featuresTitle": "Hlavní funkce",
+  "features": [
+    {
+      "icon": "FaComments",
+      "title": "Chat na celé obrazovce",
+      "desc": "Zobrazujte a posílejte zprávy v chatu v režimu celé obrazovky."
+    },
+    {
+      "icon": "FaEdit",
+      "title": "Přizpůsobitelný chat",
+      "desc": "Možnost změny barvy pozadí, barvy písma, velikosti fontu a dalších prvků."
+    },
+    {
+      "icon": "FaArrowsAlt",
+      "title": "Flexibilní okno",
+      "desc": "Okno chatu si můžete libovolně přesouvat a měnit jeho velikost."
+    }
+  ],
+  "supportTitle": "Podpořte mě",
+  "supportDesc": "Toto rozšíření bude vždy zcela zdarma a open-source! Pokud se vám líbí, velmi ocením podporu třeba šálkem kávy ☕️ na další vývoj 🙂",
+  "supportImgAlt": "Podpořte daichan132 na Ko-fi",
+  "chrome": "Chrome",
+  "firefox": "Firefox",
+  "github": "GitHub"
+}
