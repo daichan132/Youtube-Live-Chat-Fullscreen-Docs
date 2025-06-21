@@ -22,7 +22,7 @@ export function GlowCursor() {
     <>
       <m.div
         style={{ x: springX, y: springY }}
-        className="fixed top-0 left-0 -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full pointer-events-none z-[10000] opacity-60 bg-fuchsia-500 blur-3xl"
+        className="fixed top-0 left-0 -translate-x-1/2 -translate-y-1/2 w-12 h-12 rounded-full pointer-events-none z-[10000] opacity-30 bg-primary blur-2xl"
       />
     </>
   );
@@ -49,36 +49,44 @@ export function ThemeToggle() {
   const toggle = () => setTheme((prev) => (prev === "light" ? "dark" : "light"));
 
   return (
-    <button
-      onClick={toggle}
-      aria-label="Toggle theme"
-      className="fixed top-4 right-4 z-[10002] w-10 h-10 rounded-full bg-white/70 dark:bg-neutral-800/60 backdrop-blur-sm ring-1 ring-neutral-900/10 dark:ring-white/10 shadow-sm flex items-center justify-center hover:scale-105 focus:ring-2 focus:ring-fuchsia-400 focus:ring-offset-2 transition duration-150 cursor-pointer"
-    >
-      <LazyMotion features={domAnimation} strict>
-        <AnimatePresence mode="wait" initial={false}>
-          {theme === "dark" ? (
-            <m.div
-              key="sun"
-              initial={{ rotate: -90, opacity: 0 }}
-              animate={{ rotate: 0, opacity: 1 }}
-              exit={{ rotate: 90, opacity: 0 }}
-              transition={{ duration: 0.25 }}
-            >
-              <FaSun className="w-5 h-5 text-yellow-400" />
-            </m.div>
-          ) : (
-            <m.div
-              key="moon"
-              initial={{ rotate: 90, opacity: 0 }}
-              animate={{ rotate: 0, opacity: 1 }}
-              exit={{ rotate: -90, opacity: 0 }}
-              transition={{ duration: 0.25 }}
-            >
-              <FaMoon className="w-5 h-5 text-yellow-500" />
-            </m.div>
-          )}
-        </AnimatePresence>
-      </LazyMotion>
-    </button>
+    <div className="fixed top-6 right-6 z-[10002] group">
+      <div className="absolute -inset-2 bg-gradient-to-l from-primary via-accent to-secondary rounded-full opacity-20 group-hover:opacity-40 transition-opacity duration-300 blur-sm"></div>
+      <button
+        onClick={toggle}
+        aria-label="Toggle theme"
+        className="relative w-12 h-12 rounded-full bg-card/90 backdrop-blur-md border border-border/50 shadow-lg flex items-center justify-center hover:scale-110 hover:rotate-12 focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-all duration-300 cursor-pointer group overflow-hidden"
+      >
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        <div className="absolute -top-1 -left-1 w-3 h-3 bg-secondary rounded-full opacity-60"></div>
+        <div className="absolute -bottom-1 -right-1 w-2 h-2 bg-primary rounded-full opacity-80"></div>
+        <LazyMotion features={domAnimation} strict>
+          <AnimatePresence mode="wait" initial={false}>
+            {theme === "dark" ? (
+              <m.div
+                key="sun"
+                initial={{ rotate: -90, opacity: 0, scale: 0.5 }}
+                animate={{ rotate: 0, opacity: 1, scale: 1 }}
+                exit={{ rotate: 90, opacity: 0, scale: 0.5 }}
+                transition={{ duration: 0.4, ease: [0.25, 0.1, 0.25, 1] }}
+                className="relative z-10"
+              >
+                <FaSun className="w-5 h-5 text-primary group-hover:text-accent transition-colors duration-300" />
+              </m.div>
+            ) : (
+              <m.div
+                key="moon"
+                initial={{ rotate: 90, opacity: 0, scale: 0.5 }}
+                animate={{ rotate: 0, opacity: 1, scale: 1 }}
+                exit={{ rotate: -90, opacity: 0, scale: 0.5 }}
+                transition={{ duration: 0.4, ease: [0.25, 0.1, 0.25, 1] }}
+                className="relative z-10"
+              >
+                <FaMoon className="w-5 h-5 text-primary group-hover:text-secondary transition-colors duration-300" />
+              </m.div>
+            )}
+          </AnimatePresence>
+        </LazyMotion>
+      </button>
+    </div>
   );
 }

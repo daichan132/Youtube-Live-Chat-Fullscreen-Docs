@@ -24,24 +24,29 @@ export function LanguageSwitcher() {
   };
 
   return (
-    <div className="fixed top-6 left-6 z-[10002]">
+    <div className="fixed top-6 left-6 z-[10002] group">
       <Select value={currentLanguage.code} onValueChange={switchLanguage}>
         <SelectTrigger
-          className="h-10 px-3 rounded-lg bg-white/70 dark:bg-neutral-800/60 backdrop-blur-sm ring-1 ring-neutral-900/10 dark:ring-white/10 shadow-sm flex items-center justify-center transition-transform cursor-pointer border-0 focus:ring-2 focus:ring-fuchsia-400 focus:ring-offset-2"
+          className="relative h-11 px-4 rounded-lg bg-card/80 backdrop-blur-md border border-border/40 shadow-md flex items-center justify-center transition-all duration-300 cursor-pointer focus:ring-2 focus:ring-primary focus:ring-offset-2 hover:bg-card/90 hover:shadow-lg hover:scale-[1.02] group"
           aria-label="Change language"
         >
-          {/* Display the name of the current language */}
-          <SelectValue placeholder={currentLanguage.name} />
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/3 to-accent/3 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div className="relative z-10 flex items-center gap-2">
+            <SelectValue placeholder={currentLanguage.name} />
+          </div>
         </SelectTrigger>
-        <SelectContent className="bg-[var(--popover)] border-[var(--border)] rounded-lg">
+        <SelectContent className="bg-popover/95 backdrop-blur-md border border-border/50 rounded-lg shadow-xl">
           {/* Map over the languages array to create SelectItems */}
           {languages.map((lang) => (
             <SelectItem
               key={lang.code}
               value={lang.code}
-              className="text-[var(--popover-foreground)] hover:bg-[var(--accent)] hover:text-[var(--accent-foreground)] focus:bg-[var(--accent)] focus:text-[var(--accent-foreground)] cursor-pointer"
+              className="text-popover-foreground hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary cursor-pointer transition-all duration-200 relative group"
             >
-              {lang.name}
+              <div className="flex items-center gap-2">
+                <div className="w-1 h-1 bg-accent/60 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+                {lang.name}
+              </div>
             </SelectItem>
           ))}
         </SelectContent>
